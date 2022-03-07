@@ -32,7 +32,8 @@ namespace KIemTra
             this.label1 = new System.Windows.Forms.Label();
             this.txtusername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.txtpassworf = new System.Windows.Forms.TextBox();
+            this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,23 +57,33 @@ namespace KIemTra
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(96, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
+            this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mật khẩu";
+            this.label2.Text = "password";
             // 
-            // txtmatkhau
+            // txtpassworf
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(231, 176);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(231, 22);
-            this.txtmatkhau.TabIndex = 3;
+            this.txtpassworf.Location = new System.Drawing.Point(231, 176);
+            this.txtpassworf.Name = "txtpassworf";
+            this.txtpassworf.Size = new System.Drawing.Size(231, 22);
+            this.txtpassworf.TabIndex = 3;
+            // 
+            // btnlogin
+            // 
+            this.btnlogin.Location = new System.Drawing.Point(240, 286);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.btnlogin.TabIndex = 4;
+            this.btnlogin.Text = "login";
+            this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.txtpassworf);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtusername);
             this.Controls.Add(this.label1);
@@ -88,7 +99,8 @@ namespace KIemTra
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtusername;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox txtpassworf;
+        private System.Windows.Forms.Button btnlogin;
     }
 }
 
