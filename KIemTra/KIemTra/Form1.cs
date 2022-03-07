@@ -16,5 +16,18 @@ namespace KIemTra
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            String user = txtusername.Text;
+            String pass = txtpassworf.Text;
+            if(user == "admin" && pass == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công", "Thông Báo");
+                this.Hide();
+                Form2 f = new Form2();
+                f.Show();
+            }
+        }
     }
 }

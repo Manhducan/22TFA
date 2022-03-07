@@ -76,6 +76,7 @@ namespace KIemTra
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "đăng nhâp";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
