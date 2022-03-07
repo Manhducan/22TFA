@@ -41,9 +41,9 @@ namespace KIemTra
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(96, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 17);
+            this.label1.Size = new System.Drawing.Size(100, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "username";
+            this.label1.Text = "tên đăng nhập";
             // 
             // txtusername
             // 
@@ -57,9 +57,9 @@ namespace KIemTra
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(96, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.Size = new System.Drawing.Size(66, 17);
             this.label2.TabIndex = 2;
-            this.label2.Text = "password";
+            this.label2.Text = "mật khẩu";
             // 
             // txtpassworf
             // 
