@@ -72,9 +72,9 @@ namespace KIemTra
             // 
             this.btnlogin.Location = new System.Drawing.Point(240, 286);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.btnlogin.Size = new System.Drawing.Size(135, 35);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "login";
+            this.btnlogin.Text = "đăng nhâp";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
